@@ -1,8 +1,7 @@
 {
-    "outputDirectory": "dist/client",
     "rewrites": [
         {
-            "source": "/(.*)",
+            "source": "/((?!assets/|_next/).*)",
             "destination": "/index.html"
         }
     ]
